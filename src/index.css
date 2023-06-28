@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    background-image: none;
+}
+
+button {
+    background-color: lightgray;
+    font-size: 15px;
+    color: white;
+    transition: 1s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    max-width: 200px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: white;
+    color: black
+}
+
+.box h1 {
+    color: white;
+    margin: 3rem;
+    border-color: #434343;
+    font-size: 4rem;
+    text-shadow: 2px 2px 8px black;
+}
+
+.box {
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+}
+
+.center {
+    background-color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    max-width: 400px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 920px) {
+    .image {
+    height: 80%;
+    margin: auto;
+    }
+    .box {
+    margin: 0;
+    height: 20%;
+    height: 20%;
+    }
+    button {
+    margin: 25% 0 0 45%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .image {
+    height: 60%;
+    margin: auto;
+    }
+    .box {
+    margin: 0;
+    height: 30%;
+    }
+    button {
+    margin: 25% 0 0 40%;
+    }
+}
